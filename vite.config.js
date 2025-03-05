@@ -6,10 +6,10 @@ export default defineConfig({
   server: {
     port: 3000,
   },
-  publicDir: 'estaticos',
+  publicDir: 'assets',
   build: {
-    outDir: 'publico',
-    assetsDir: 'estaticos',
+    outDir: 'public',
+    assetsDir: 'assets',
     sourcemap: true,
   },
   css: {
