@@ -1,11 +1,12 @@
 import { GlobalStyle } from './styles';
+import Header from './components/Header';
 
 const App = () => {
   return (
-    <div className="app">
+    <>
       <GlobalStyle />
-      <h1>Hello, Vite + React!</h1>
-    </div>
+      <Header />
+    </>
   );
 };
 
