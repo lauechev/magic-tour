@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle, css } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
   body {
@@ -11,4 +11,13 @@ export const GlobalStyle = createGlobalStyle`
     text-rendering: optimizedLegibility;
     background-color: #2828e6;
   }
+`;
+
+export const Marginals = css`
+  box-sizing: border-box;
+  display: flex;
+  pointer-events: none;
+  position: fixed;
+  width: 100vw;
+  z-index: 1;
 `;
