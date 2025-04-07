@@ -9,7 +9,7 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     overflow: hidden;
     text-rendering: optimizedLegibility;
-    background-color: #2828e6;
+    background-image: linear-gradient(-45deg,#cff9ca, #cd3c47);
   }
 `;
 
@@ -26,8 +26,8 @@ export const ImageContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  height: 600px;
-  width: auto;
+  height: 400px;
+  width: 600px;
 `;
 
 export const Wrapper = styled.section`
