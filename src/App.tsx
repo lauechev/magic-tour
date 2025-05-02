@@ -45,7 +45,7 @@ const App = () => {
       <Wrapper onMouseMove={handleMove}>
         <ImageContainer>
           {matrix.map(([x, y], index) => (
-            <ImgBox key={index} x={x} y={y} />
+            <ImgBox key={index} x={x} y={y} percent={distance} />
           ))}
         </ImageContainer>
       </Wrapper>
