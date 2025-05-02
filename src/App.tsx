@@ -32,10 +32,6 @@ const App = () => {
     calculateDistance([clientX, clientY]);
   };
 
-  const handleTouchMove = ({ touches }: React.TouchEvent) => {
-    calculateDistance([touches[0].clientX, touches[0].clientY]);
-  };
-
   console.log(distance);
   return (
     <>
