@@ -8,11 +8,11 @@ export const GlobalStyle = createGlobalStyle`
 
   @keyframes glow{
     0%{
-      box-shadow: rgb(252,210,23) 0 0 0px;
+      box-shadow: rgb(0, 52, 27) 0 0 0px;
     }
 
     100%{
-      box-shadow: rgb(252,210,23) 0 10px 100px;
+      box-shadow: rgb(0,52,27) 0 10px 100px;
     }
   }
 
